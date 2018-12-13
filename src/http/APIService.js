@@ -1,8 +1,8 @@
 /* eslint-disable */
 import axios from 'axios';
 import AuthService from '../auth/AuthService';
-//  const API_URL = 'https://my.bbloom.io';
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://my.bbloom.io/api/v1';
+// const API_URL = 'http://localhost:8000';
 
 export class APIService{
     constructor(){
