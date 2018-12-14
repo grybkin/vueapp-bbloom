@@ -60,7 +60,7 @@
 /* eslint-disable */
 import {APIService} from '../http/APIService';
 import Loading from './Loading';
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://my.bbloom.io/api/v1';
 const apiService = new APIService();
 
 export default {
